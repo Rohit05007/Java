@@ -24,5 +24,23 @@ class chapter_1 {
         // 11
         // -------
         // 10
+        // Presedence and Associativity
+        // Presedence
+        int r = 6 * 5 - 34 / 2;
+        /*
+            =30-34/2
+             =30-17
+            =13
+         */
+        System.out.println(r);
+        // Associativity
+        int v = 60 / 5 - 34 * 2;
+        /*
+           =12-34*2;
+           =12-68
+           =13
+         */
+        System.out.println(v);
+
     }
 }
